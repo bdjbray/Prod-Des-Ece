@@ -1,0 +1,28 @@
+from tweepy.streaming import StreamListener
+from tweepy import OAuthHandler
+from tweepy import Stream
+
+import twitter_credentials
+
+#class twitterStreamer(self,fatched_tweets_filename,hash_tag_list):
+    
+    
+
+class StdOutListener(StreamListener): #inherit streamlistener
+    def for_data(self,data): #listening from twitts
+        print(data)
+        return True
+    
+    def for_error(self,status):  #what happens when error
+        print('error encountered!')
+        print(status)  #print the error status
+
+if __name__=="__main__":   
+    
+    listener =StdOutListener()
+    auth = OAuthHandler(twitter_credentials.CONSUMER_KEY,twitter_credentials.CONSUMER_SECRET)
+    auth.set_access_token(twitter_credentials.ACCESS_TOKEN,twitter_credentials.ACCESS_TOKEN_SECRET)
+    
+    stream=Stream(auth,listener)
+    
+    stream.filter(track=['Justin Bieber']) #use the filter to choose the people I want to listen
