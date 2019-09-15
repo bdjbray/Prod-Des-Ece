@@ -5,7 +5,7 @@ Input the username of a twitter user.Our product utilize the twitter api to get 
 Our plan is that with our product,our customers can analyze the emotions of their friends through the five recent posts.
 
 15 Sep
-We just uploaded our first code. We can use it to listen to a particular user, the information we got is in json.
+We just uploaded our first code. We can use it to listen to a particular user, we chose Justin Bieber as an example.The information we got is in json.
 
 ## Recent User Stories for Mini Project One
 >I'm a Twitter user, I want to know my friend's feelings nowadays via his/her Tweets.
