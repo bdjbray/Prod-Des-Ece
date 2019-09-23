@@ -1,11 +1,13 @@
 # PART - Google Natural Language API
 
 
-
 ## To Use It
 
 ### Set 'Path' on MacOS
 export GOOGLE_APPLICATION_CREDENTIALS="/Users/wangjialun/Desktop/EC601/Mini\ Project/EC601\ mini\ project-34898095f322.json"
+
+### Set 'Path' on Linux
+export GOOGLE_APPLICATION_CREDENTIALS="/media/sf_Mini_Project/EC601 mini project-34898095f322.json"
 
 
 ### Activate the VirtualEnv
