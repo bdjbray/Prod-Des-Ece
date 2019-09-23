@@ -7,6 +7,7 @@
 export GOOGLE_APPLICATION_CREDENTIALS="/Users/wangjialun/Desktop/EC601/Mini\ Project/EC601\ mini\ project-34898095f322.json"
 
 ### Set 'Path' on Linux
+***in DevBox***
 export GOOGLE_APPLICATION_CREDENTIALS="/media/sf_Mini_Project/EC601 mini project-34898095f322.json"
 
 
