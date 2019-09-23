@@ -1,14 +1,10 @@
 # PART - Google Natural Language API
 
 
-## To Use It
+## To Use It on Mac OS
 
-### Set 'Path' on MacOS
+### Set 'Path'
 export GOOGLE_APPLICATION_CREDENTIALS="/Users/wangjialun/Desktop/EC601/Mini\ Project/EC601\ mini\ project-34898095f322.json"
-
-### Set 'Path' on Linux
-***in DevBox***
-export GOOGLE_APPLICATION_CREDENTIALS="/media/sf_Mini_Project/EC601 mini project-34898095f322.json"
 
 
 ### Activate the VirtualEnv
@@ -19,3 +15,11 @@ pip install google-cloud-storage
 
 #### Deactivate
 deactivate
+
+
+
+## To Use It on Linux ***Devbox***
+
+### Set 'Path' on Linux
+export GOOGLE_APPLICATION_CREDENTIALS="/media/sf_Mini_Project/EC601 mini project-34898095f322.json"
+
