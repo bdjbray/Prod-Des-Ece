@@ -7,6 +7,9 @@ Our plan is that with our product,our customers can analyze the emotions of thei
 15 Sep
 We just uploaded our first code. We can use it to listen to a particular user, we chose Justin Bieber as an example.The information we got is in json.
 
+27 Sep
+We uploaded the new version of using twiiter api,we can now get the tweets of a people and the related information of the tweets.
+
 ## Recent User Stories for Mini Project One
 >I'm a Twitter user, I want to know my friend's feelings nowadays via his/her Tweets.
 
