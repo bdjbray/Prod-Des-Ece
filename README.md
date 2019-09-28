@@ -1,5 +1,5 @@
 # Prod-Des-Ece
-11 Sep
+
 
 ## Plan
 ### 11 Sep (Our Initial Plan)
@@ -17,8 +17,10 @@ Update the Google NL part, add the main code of this part.
 For more details, go & see `./Google_NL_API/Readme.md`. 
 thx
 
+
 ## Recent User Stories for Mini Project One
 >I'm a Twitter user, I want to know my friend's feelings nowadays via his/her Tweets.
+
 
 ## Potential User Stories
 *can be used for future developments, that depends...*
