@@ -44,11 +44,15 @@ get the **average sentiment score**,
 
 To change .txt file path, change `get_content("PATH")` in this .py file. 
 
-To change the number of twitters it can read, change `set_num = ?` in this .py file.
+To change the number of tweets it can read, change `set_num = ?` in this .py file.
 
 Use the following line:
 
 `python ana_sentiment_main.py`
+
+
+### ***Screenshot_result_\*\*\*.png***
+Our screenshots of the analyzing result.
 
 
 ### ***analyze_sentiment.py***
